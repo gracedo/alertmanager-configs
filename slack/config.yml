@@ -39,7 +39,7 @@ route:
 receivers:
 - name: slack_general
   slack_configs:
-  - channel: '#eng-prometheus-alerts'
+  - channel: '#slack-irc-testing'
 
     # Whether or not to notify about resolved alerts.
     send_resolved: true
